@@ -2,7 +2,7 @@ module.exports = function count(s, pairs) {
   // your implementation
     var answerMod = 1000000007;
     var k = 1;
-    if (s == "1"){
+    if (s == "1" || s == "01"){
         for (let i = 0; i < pairs.length; i++) {
             k *= (pairs[i][0] - 1);
         }
